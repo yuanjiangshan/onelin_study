@@ -1,0 +1,21 @@
+/* pages/englishlisten/englishlisten.wxss */
+.overall{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: purple;
+  font-size: 60rpx;
+  color: white;
+}
+.header{
+  height: 400rpx;
+  width: 710rpx;
+  background-color: blue;
+  margin: 20rpx;
+}
+.body{
+  height: 622rpx;
+  width: 700rpx;
+  margin: 25rpx;
+  background-color: red;
+}

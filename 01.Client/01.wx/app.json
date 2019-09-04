@@ -1,9 +1,13 @@
 {
   "pages": [
-    "pages/index/index",
+    "pages/englishlisten/englishlisten",
+   "pages/english/english",  
+   
     "pages/logs/logs",
+    "pages/index/index",
     "pages/hours/hours",
     "pages/homes/homes"
+
   ],
   "window": {
     "backgroundTextStyle": "light",

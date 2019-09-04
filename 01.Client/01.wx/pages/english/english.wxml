@@ -1,0 +1,26 @@
+<!--pages/english/english.wxml-->
+<view class="overall">
+<view class="header">
+留学英语
+</view>
+<view class="image">
+<image class="img" src="../../images/logs/listen.jpg"></image>
+</view>
+<view class="body">
+<view class="bodybox">
+<view class="title" bindtap="ToUserSubject">英语听力</view>
+<view class="title">英语阅读</view>
+</view>
+<view class="bodybox">
+<view class="title">英语写作</view>
+<view class="title">自我测试</view>
+</view>
+</view>
+  <view class="footer">
+  <text>学习视频</text>
+  <view class="video">
+  <image class="vio" src="../../images/logs/2.jpg"></image>
+  </view>
+  </view>
+
+</view>

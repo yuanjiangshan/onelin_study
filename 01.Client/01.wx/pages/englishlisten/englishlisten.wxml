@@ -1,0 +1,16 @@
+<!--pages/englishlisten/englishlisten.wxml-->
+<view class="overall">
+<text>英语听力在线练习</text>
+
+<view class="header">
+
+</view>
+
+<view class="body">
+<text>真题购买</text>
+
+
+</view>
+
+</view>
+
