@@ -1,21 +1,97 @@
-/**index.wxss**/
-.userinfo {
+.CarouselBox{
+  width: 98%;
+  margin: 0 auto;
+}
+.navigationBox{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
+  margin-top: 30rpx;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.navigationOne{
+  text-align: center;
+  width: 25%;
+  
+}
+.img1{
+  /* background-color: blue; */
+  width: 27px;
+  height: 27px;
+}
+.fontsize{
+  font-size: 32rpx;
 }
 
-.userinfo-nickname {
-  color: #aaa;
+.line{
+  margin-top: 20rpx;
+  width: 100%;
+  border-bottom: 2px solid #F9F9F9;
 }
 
-.usermotto {
-  margin-top: 200px;
+.serveBox{
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 38rpx;
+  border-left: 10rpx solid #B45F06;
+  padding-left: 20rpx;
+  font-weight: bold;
+  margin-top: 20rpx;
+}
+.itemBox{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.itemOne{
+  width: 47%;
+  height: 300rpx;
+  margin-top: 20rpx;
+}
+.itemTopBox{
+  width: 100%;
+  height: 300rpx;
+}
+.courseBox{
+  width: 100%;
+  margin-top: 20rpx;
+}
+.course1{
+  white-space: nowrap;
+}
+.imgBig{
+  width: 100%;
+  height: 100%;
+}
+.courseOne{
+  width: 40%;
+  height: 250rpx;
+  margin-left: 30rpx;
+  display: inline-block
+}
+.spyBox{
+  width: 100%;
+  margin-top: 20rpx;
+}
+.spyOneBox{
+width: 100%;
+height: 520rpx;
+margin-top: 50rpx;
+display: flex;
+flex-direction: column;
+}
+.spyOne{
+  width: 100%;
+  height: 450rpx;
+
+}
+.spyImg{
+  width: 100%;
+  height: 100%;
+}
+.tailText{
+  font-size: 30rpx;
+  margin-top: 20rpx;
 }

@@ -2,13 +2,14 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/hours/hours",
-    "pages/homes/homes"
+    "pages/house/house",
+    "pages/homes/homes",
+    "pages/indexPag/area/area"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "主页",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
@@ -25,7 +26,7 @@
       "iconPath": "./images/Apartment.png",
       "selectedIconPath": "./images/Apartment1.png"
     },{
-      "pagePath": "pages/hours/hours",
+      "pagePath": "pages/house/house",
       "text": "公寓",
       "iconPath": "./images/hours.png",
       "selectedIconPath": "./images/hours1.png"

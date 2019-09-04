@@ -1,4 +1,4 @@
-// pages/hours/hours.js
+// pages/indexPag/area/area.js
 Page({
 
   /**
