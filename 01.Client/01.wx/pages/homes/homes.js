@@ -75,7 +75,6 @@ Page({
   },
   toUserMap: function (res) {
     let buffer = res.currentTarget.dataset.yjs;
-    console.log(res);
     switch(buffer){
       case 0: wx.navigateTo({
         url: "../homes-user/homes-user"

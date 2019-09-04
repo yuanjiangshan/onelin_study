@@ -1,27 +1,17 @@
 {
   "pages": [
-<<<<<<< HEAD
-    "pages/homes/homes",
-    "pages/index/index",
-=======
-    "pages/englishlisten/englishlisten",
-   "pages/english/english",  
-   
->>>>>>> 76338a4cfb46661f8d828233656cd7461f75d718
     "pages/logs/logs",
     "pages/index/index",
+    "pages/homes/homes",
+    "pages/englishlisten/englishlisten",
+    "pages/english/english",  
     "pages/hours/hours",
-<<<<<<< HEAD
     "pages/homes-user/homes-user",
     "pages/homes-Setting/homes-Setting",
     "pages/homes-history record/homes-history record",
     "pages/homes-help/homes-help",
     "pages/homes-on/on",
     "pages/homes-pay/homes-pay"
-=======
-    "pages/homes/homes"
-
->>>>>>> 76338a4cfb46661f8d828233656cd7461f75d718
   ],
   "window": {
     "backgroundTextStyle": "light",
