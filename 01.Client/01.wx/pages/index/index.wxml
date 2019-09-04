@@ -53,4 +53,3 @@
     <view class="tailText">{{tail.title}}</view>
   </view>
 </view>
-
