@@ -1,5 +1,12 @@
 /**app.wxss**/
 .container {
   height: 100%;
+<<<<<<< HEAD
   background-color: #eee;
 } 
+=======
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
+>>>>>>> 76338a4cfb46661f8d828233656cd7461f75d718

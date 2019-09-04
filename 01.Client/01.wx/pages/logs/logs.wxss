@@ -1,0 +1,43 @@
+<<<<<<< HEAD
+=======
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.img1{
+  height: 950rpx;
+  width: 750rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.onebox{
+  height: 500rpx;
+  width: 730rpx;
+  border-radius: 10rpx;
+}
+.img{
+  height: 500rpx;
+  width: 730rpx;
+}
+.twobox{
+  display: flex;
+  flex-direction: column;
+  height: 300rpx;
+  width: 730rpx;
+  margin-top: 20rpx;
+  background-color: red;
+}
+.one{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 150rpx;
+  width: 730rpx;
+}
+.img1{
+  height: 150rpx;
+  width: 182rpx;
+}
+>>>>>>> 76338a4cfb46661f8d828233656cd7461f75d718

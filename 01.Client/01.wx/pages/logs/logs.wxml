@@ -1,4 +1,27 @@
 <!--logs.wxml-->
 <view class="container log-list">
+<view class="onebox">
+<image class="img" src="../../images/school.jpg"></image>
+</view>
+<view class="twobox">
+  <view class="one">
+  <view class="subject">
+  <view>留学数学</view>
+  <view class="images">
+  <image class="img1" src="../../images/math.jpg"></image>
+  </view>
+  </view>
+  <view class="subject">留学英语</view>
+  <view class="subject">留学XX</view>
+  <view class="subject">留学XX</view>
+  </view>
 
+  <view class="one">
+  <view class="subject">留学XX</view>
+  <view class="subject">留学XX</view>
+  <view class="subject">留学XX</view>
+  <view class="subject">留学XX</view>
+  </view>
+
+</view>
 </view>
