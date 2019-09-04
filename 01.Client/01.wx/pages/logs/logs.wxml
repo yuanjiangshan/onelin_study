@@ -1,4 +1,34 @@
 <!--logs.wxml-->
 <view class="container log-list">
-
+  <view class="onebox">
+    <image class="img" src="../../images/logs/school.jpg"></image>
+  </view>
+  <view class="twobox">
+    <view class="one">
+      <view class="subject">
+        <view class="images">
+          <image class="img1" src="../../images/logs/math.png"></image>
+          <view class="size">留学数学</view>
+        </view>
+      </view>
+      <view class="subject">
+        <view class="images"  bindtap="toEnglish">
+          <image class="img1" src="../../images/logs/English.png"></image>
+          <view class="size">留学英语</view>
+        </view>
+      </view>
+      <view class="subject">
+        <view class="images">
+          <image class="img1" src="../../images/logs/wl.png"></image>
+          <view class="size">留学物理</view>
+        </view>
+      </view>
+      <view class="subject">
+        <view class="images">
+          <image class="img1" src="../../images/logs/twx.png"></image>
+          <view class="size">留学文学</view>
+        </view>
+      </view>
+    </view>
+  </view>
 </view>

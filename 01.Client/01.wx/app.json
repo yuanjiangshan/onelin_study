@@ -4,7 +4,16 @@
     "pages/logs/logs",
     "pages/house/house",
     "pages/homes/homes",
-    "pages/indexPag/area/area"
+    "pages/indexPag/area/area",
+    "pages/englishlisten/englishlisten",
+    "pages/english/english",  
+    "pages/hours/hours",
+    "pages/homes-user/homes-user",
+    "pages/homes-Setting/homes-Setting",
+    "pages/homes-history record/homes-history record",
+    "pages/homes-help/homes-help",
+    "pages/homes-on/on",
+    "pages/homes-pay/homes-pay"
   ],
   "window": {
     "backgroundTextStyle": "light",

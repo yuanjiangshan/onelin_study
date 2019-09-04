@@ -1,0 +1,55 @@
+/* pages/homes-pay/homes-pay.wxss */
+.one1{
+  width: 100%;
+}
+.one2{
+  height: 400rpx;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    border-radius: 30rpx;
+}
+.one3{
+  width: 90%;
+  height: 300rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 30rpx;
+}
+.one4{
+  width: 30%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30rpx;
+  color: white;
+}
+.one5{
+  width: 150rpx;
+  height: 150rpx;
+  color: white;
+}
+.one6{
+
+  display: flex;
+  flex-flow:row wrap;
+}
+.one7{
+  height: 200rpx;
+  width: 25%;
+  font-size: 35rpx;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.one8{
+  margin: 30rpx 15rpx 0rpx 15rpx;
+}
+.one9{
+  width: 60rpx;
+  height: 60rpx;
+}
