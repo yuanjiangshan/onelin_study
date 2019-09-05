@@ -3,11 +3,11 @@
   <view class="one2">
     <view class="one3">
       <view class="one4">
-        <image src="../../images/user/Payment.png" class="one5"></image>
+        <image src="../../../images/user/Payment.png" class="one5"></image>
         <view>收付款</view>
       </view>
       <view class="one4">
-        <image src="../../images/user/Change.png" class="one5"></image>
+        <image src="../../../images/user/Change.png" class="one5"></image>
         <view>钱包</view>
         <view>￥999.00</view>
       </view>    
@@ -17,19 +17,19 @@
     <view>钱包服务</view>
     <view class="one6">
       <view class="one7">
-        <image src="../../images/user/xyk.png" class="one9"></image>
+        <image src="../../../images/user/xyk.png" class="one9"></image>
         <view>信用卡还款</view>
       </view>
       <view class="one7">
-        <image src="../../images/user/sjcz.png" class="one9"></image>
+        <image src="../../../images/user/sjcz.png" class="one9"></image>
         <view>手机充值</view>
       </view>
       <view class="one7">
-        <image src="../../images/user/qbcz.png" class="one9"></image>
+        <image src="../../../images/user/qbcz.png" class="one9"></image>
         <view>会员充值</view>
       </view>
       <view class="one7">
-        <image src="../../images/user/lct.png" class="one9"></image>
+        <image src="../../../images/user/lct.png" class="one9"></image>
         <view>理财通</view>
       </view>
       <view class="one7">

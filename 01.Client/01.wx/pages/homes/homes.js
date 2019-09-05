@@ -33,7 +33,7 @@ Page({
   },
   toUser:function(){
     wx.navigateTo({
-      url: '../homes-pay/homes-pay'
+      url: '../homes-family/homes-pay/homes-pay'
     })
   }
   ,
@@ -77,23 +77,23 @@ Page({
     let buffer = res.currentTarget.dataset.yjs;
     switch(buffer){
       case 0: wx.navigateTo({
-        url: "../homes-user/homes-user"
+        url: "../homes-family/homes-user/homes-user"
       });
       break;
       case 1: wx.navigateTo({
-        url: "../homes-history record/homes-history record"
+        url: "../homes-family/homes-history record/homes-history record"
       });
         break;
       case 2: wx.navigateTo({
-        url: "../homes-on/on"
+        url: "../homes-family/homes-on/on"
       });
         break;
       case 3: wx.navigateTo({
-        url: "../homes-help/homes-help"
+        url: "../homes-family/homes-help/homes-help"
       });
         break;
       case 4: wx.navigateTo({
-        url: "../homes-Setting/homes-Setting"
+        url: "../homes-family/homes-Setting/homes-Setting"
       });
         break;
     }
