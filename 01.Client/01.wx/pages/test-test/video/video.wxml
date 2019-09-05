@@ -7,7 +7,7 @@
       </view>
     </view>
     <view class="videobox">
-      <video src="../../../images/imgsy/video1.mp4" class="video"></video>
+      <video src="https://6874-html5-yk6am-1300167017.tcb.qcloud.la/wx/imgs/video1.mp4?sign=d3df7bd579ef8ae145f20476596b0ee4&t=1567662595" class="video"></video>
     </view>
     <view class="content_title">
       <view class="title_box">
@@ -15,6 +15,6 @@
       </view>
     </view>
     <view class="videobox">
-      <video src="../../../images/imgsy/video2.mp4" class="video"></video>
+      <video src="https://6874-html5-yk6am-1300167017.tcb.qcloud.la/wx/imgs/video2.mp4?sign=dc3f16cee930fc617e90d23c6aab6b99&t=1567662510" class="video"></video>
     </view>
 </view>

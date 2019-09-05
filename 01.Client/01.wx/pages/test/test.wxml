@@ -3,7 +3,7 @@
     <view class="content_title">AP微积分动画演示</view>
     <view class="box">
       <view class="list catalog">
-        <image src="../../images/imgsy/catalog.png" class="icon"></image>
+        <image src="https://6874-html5-yk6am-1300167017.tcb.qcloud.la/wx/imgs/catalog.png?sign=8fb253c7e578ead67ec54acbb740e760&t=1567662891" class="icon"></image>
         目录
       </view>
 
@@ -26,8 +26,8 @@
   <view class="animation animation_video">
     <view class="content_title">6.5节视频教学</view>
     <view class="video" bindtap="video">
-        <image src="../../images/imgsy/AP.jpg" class="video_img"></image>
-        <image src="../../images/imgsy/click.png" class="clickIcon"></image>
+        <image src="https://6874-html5-yk6am-1300167017.tcb.qcloud.la/wx/imgs/AP.jpg?sign=07da4ec602dea0c2832a355cb7d8b6e3&t=1567662919" class="video_img"></image>
+        <image src="https://6874-html5-yk6am-1300167017.tcb.qcloud.la/wx/imgs/click.png?sign=b651517ad64888813cede8e85e68e4b5&t=1567662940" class="clickIcon"></image>
     </view>
   </view>
 </view>
