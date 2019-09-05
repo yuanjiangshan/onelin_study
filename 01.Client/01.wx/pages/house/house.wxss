@@ -71,8 +71,8 @@
   display: flex;
 }
 .placeItem {
-  height: 80rpx;
   display: flex;
+  height: 80rpx;
 }
 .placeItemView{
   padding: 10rpx;
@@ -114,39 +114,35 @@
   margin: 0;
 }
 .placeImg{
-  width:35%;
+  width:40%;
   height:360rpx;
-  padding-right: 20rpx;
   display: inline-block;
   margin-left: 20rpx;
   border-radius: 10rpx;
   background-repeat: no-repeat;
+  background: palegoldenrod;
 }
-.img1{
-  background-size: 220% 100%;
-  background-image: url("https://pic.funliving.com/h_s_p1.png");
-}
-.img2{
-  background-size: 120% 100%;
-  background-image: url("https://pic.funliving.com/h_s_p2.png");
-}
-.img3{
-  background-size: 120% 100%;
-  background-image: url("https://pic.funliving.com/h_s_p3.png");
-}
-.img4{
-  background-size: 120% 100%;
-  background-image: url("https://pic.funliving.com/h_s_p4.png");
+.imgItem{
+  width: 100%;
+  height: 100%;
+  border-radius: 10rpx;
+  background-size: contain;
+  position: relative;
 }
 .placeTitle1{
   color: white;
   font-size: 38rpx;
   padding: 10rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 .placeTitle2{
   color: white;
   font-size: 30rpx;
   padding-left: 10rpx;
+  position: absolute;
+  top:18%;
 }
 
 

@@ -21,7 +21,7 @@
   <view class="placeBox">
     <view class="top">
       <view class="placeItem" wx:for='{{topics}}' wx:key="index" wx:for-item="topic">
-        <view class="placeItemView" bindtap="clickItem" data-yjs="{{index}}">
+        <view class="placeItemView" bindtap="clickItem" data-www="{{index}}">
           <view class="{{indexSelect==index?'titleSelect':'title'}}">{{topic.title}}</view>
           <view class='line' wx:if="{{indexSelect==index}}"></view>
 
@@ -31,22 +31,12 @@
     </view>
     <view class="imgBox">
       <scroll-view class='imgContent' scroll-x="true">
-        <view class="placeImg img1">
-          <view class="placeTitle1">London</view>
-          <view class="placeTitle2">伦敦</view>
-        </view>
-        <view class="placeImg img2">
-          <view class="placeTitle1">Liverpool</view>
-          <view class="placeTitle2">利物浦</view>
-        </view>
-        <view class="placeImg img3">
-          <view class="placeTitle1">Manchester</view>
-          <view class="placeTitle2">曼切斯特</view>
-        </view>
-        <view class="placeImg img4">
-          <view class="placeTitle1">Newcastle</view>
-          <view class="placeTitle2">纽卡斯尔</view>
-        </view>
+          <view class="placeImg" wx:for='{{imageSrc1}}' wx:key="index" wx:for-item="image">
+            <image src="{{image.url}}" class="imgItem" mode="scaleToFill">
+              <view class="placeTitle1">{{image.title1}}</view>
+              <view class="placeTitle2">{{image.title2}}</view>
+            </image>
+          </view>
       </scroll-view>
     </view>
   </view>
@@ -74,116 +64,115 @@
 
 
   <view class="houseBox">
-     <view class="houseTitle">特惠精选</view>
-     <view class="houseContent">
-        <view class="houseIntroduce">
-            <image src="../../images/intro1.jpeg"class="introImg"></image>
-            <image src="../../images/定位.png" class="introLogo"></image>
-            <view class="introPlace">纽卡斯尔</view>
-            <view class="introTitle">IQ Collingwood</view>
-            <view class="introPrice">£113 起/周</view>
-            <view class="introText">纽卡网红学生公寓，200英镑限时返现</view>
-        </view>
-        <view class="houseIntroduce">
-            <image src="../../images/intro2.jpg" class="introImg"></image>
-            <image src="../../images/定位.png" class="introLogo"></image>
-            <view class="introPlace">哈德斯菲尔德</view>
-            <view class="introTitle">The Courtyard</view>
-            <view class="introPrice">£140 起/周</view>
-            <view class="introText">哈德斯菲尔德早鸟预订，火爆抢房</view>
-        </view>
-     </view>
-     <view class="houseContent">
-        <view class="houseIntroduce">
-            <image src="../../images/intro3.jpg" class="introImg"></image>
-            <image src="../../images/定位.png" class="introLogo"></image>
-            <view class="introPlace">谢菲尔德</view>
-            <view class="introTitle">New Era Student Living</view>
-            <view class="introPrice">£148 起/周</view>
-            <view class="introText">谢菲尔德最新Studio，限时优惠</view>
-        </view>
-        <view class="houseIntroduce">
-            <image src="../../images/intro4.jpg" class="introImg"></image>
-            <image src="../../images/定位.png" class="introLogo"></image>
-            <view class="introPlace">格拉斯哥</view>
-            <view class="introTitle">true Glasgow</view>
-            <view class="introPrice">£150 起/周</view>
-            <view class="introText">£250奢华床品厨具免费送+免费接机</view>
-        </view>
-     </view>
-     <view class="houseContent">
-        <view class="houseIntroduce">
-            <image src="../../images/intro3.jpg" class="introImg"></image>
-            <image src="../../images/定位.png" class="introLogo"></image>
-            <view class="introPlace">谢菲尔德</view>
-            <view class="introTitle">Fenton House</view>
-            <view class="introPrice">£130 起/周</view>
-            <view class="introText">限时折扣，立省300镑</view>
-        </view>
-        <view class="houseIntroduce">
-            <image src="../../images/intro5.jpg" class="introImg"></image>
-            <image src="../../images/定位.png" class="introLogo"></image>
-            <view class="introPlace">伯明翰</view>
-            <view class="introTitle">Vita Birmingham</view>
-            <view class="introPrice">£189 起/周</view>
-            <view class="introText">全新学生公寓，限时高额返现进行中</view>
-        </view>
-     </view>
-     <view class="houseContent">
-        <view class="houseIntroduce">
-            <image src="../../images/intro6.jpg" class="introImg"></image>
-            <image src="../../images/定位.png" class="introLogo"></image>
-            <view class="introPlace">利兹</view>
-            <view class="introTitle">Leeds St Albans</view>
-            <view class="introPrice">£182 起/周</view>
-            <view class="introText">利兹全新公寓，抢房进行中</view>
-        </view>
-        <view class="houseIntroduce">
-            <image src="../../images/intro7.jpg" class="introImg"></image>
-            <image src="../../images/定位.png" class="introLogo"></image>
-            <view class="introPlace">约克</view>
-            <view class="introTitle">VITA Student York</view>
-            <view class="introPrice">£194 起/周</view>
-            <view class="introText">拼多多，拼得多，省得多！</view>
-        </view>
-     </view>
-     <view class="houseContent">
-        <view class="houseIntroduce">
-            <image src="../../images/intro8.jpg" class="introImg"></image>
-            <image src="../../images/定位.png" class="introLogo"></image>
-            <view class="introPlace">曼切斯特</view>
-            <view class="introTitle">Circle Square</view>
-            <view class="introPrice">£255 起/周</view>
-            <view class="introText">限时高额返现，拼团更实惠</view>
-        </view>
-        <view class="houseIntroduce">
-            <image src="../../images/intro9.jpg" class="introImg"></image>
-            <image src="../../images/定位.png" class="introLogo"></image>
-            <view class="introPlace">伦敦</view>
-            <view class="introTitle">IQ Bankside</view>
-            <view class="introPrice">£351 起/周</view>
-            <view class="introText">限时200英镑返现</view>
-        </view>
-     </view>
+    <view class="houseTitle">特惠精选</view>
+    <view class="houseContent">
+      <view class="houseIntroduce">
+        <image src="../../images/intro1.jpeg" class="introImg"></image>
+        <image src="../../images/定位.png" class="introLogo"></image>
+        <view class="introPlace">纽卡斯尔</view>
+        <view class="introTitle">IQ Collingwood</view>
+        <view class="introPrice">£113 起/周</view>
+        <view class="introText">纽卡网红学生公寓，200英镑限时返现</view>
+      </view>
+      <view class="houseIntroduce">
+        <image src="../../images/intro2.jpg" class="introImg"></image>
+        <image src="../../images/定位.png" class="introLogo"></image>
+        <view class="introPlace">哈德斯菲尔德</view>
+        <view class="introTitle">The Courtyard</view>
+        <view class="introPrice">£140 起/周</view>
+        <view class="introText">哈德斯菲尔德早鸟预订，火爆抢房</view>
+      </view>
+    </view>
+    <view class="houseContent">
+      <view class="houseIntroduce">
+        <image src="../../images/intro3.jpg" class="introImg"></image>
+        <image src="../../images/定位.png" class="introLogo"></image>
+        <view class="introPlace">谢菲尔德</view>
+        <view class="introTitle">New Era Student Living</view>
+        <view class="introPrice">£148 起/周</view>
+        <view class="introText">谢菲尔德最新Studio，限时优惠</view>
+      </view>
+      <view class="houseIntroduce">
+        <image src="../../images/intro4.jpg" class="introImg"></image>
+        <image src="../../images/定位.png" class="introLogo"></image>
+        <view class="introPlace">格拉斯哥</view>
+        <view class="introTitle">true Glasgow</view>
+        <view class="introPrice">£150 起/周</view>
+        <view class="introText">£250奢华床品厨具免费送+免费接机</view>
+      </view>
+    </view>
+    <view class="houseContent">
+      <view class="houseIntroduce">
+        <image src="../../images/intro3.jpg" class="introImg"></image>
+        <image src="../../images/定位.png" class="introLogo"></image>
+        <view class="introPlace">谢菲尔德</view>
+        <view class="introTitle">Fenton House</view>
+        <view class="introPrice">£130 起/周</view>
+        <view class="introText">限时折扣，立省300镑</view>
+      </view>
+      <view class="houseIntroduce">
+        <image src="../../images/intro5.jpg" class="introImg"></image>
+        <image src="../../images/定位.png" class="introLogo"></image>
+        <view class="introPlace">伯明翰</view>
+        <view class="introTitle">Vita Birmingham</view>
+        <view class="introPrice">£189 起/周</view>
+        <view class="introText">全新学生公寓，限时高额返现进行中</view>
+      </view>
+    </view>
+    <view class="houseContent">
+      <view class="houseIntroduce">
+        <image src="../../images/intro6.jpg" class="introImg"></image>
+        <image src="../../images/定位.png" class="introLogo"></image>
+        <view class="introPlace">利兹</view>
+        <view class="introTitle">Leeds St Albans</view>
+        <view class="introPrice">£182 起/周</view>
+        <view class="introText">利兹全新公寓，抢房进行中</view>
+      </view>
+      <view class="houseIntroduce">
+        <image src="../../images/intro7.jpg" class="introImg"></image>
+        <image src="../../images/定位.png" class="introLogo"></image>
+        <view class="introPlace">约克</view>
+        <view class="introTitle">VITA Student York</view>
+        <view class="introPrice">£194 起/周</view>
+        <view class="introText">拼多多，拼得多，省得多！</view>
+      </view>
+    </view>
+    <view class="houseContent">
+      <view class="houseIntroduce">
+        <image src="../../images/intro8.jpg" class="introImg"></image>
+        <image src="../../images/定位.png" class="introLogo"></image>
+        <view class="introPlace">曼切斯特</view>
+        <view class="introTitle">Circle Square</view>
+        <view class="introPrice">£255 起/周</view>
+        <view class="introText">限时高额返现，拼团更实惠</view>
+      </view>
+      <view class="houseIntroduce">
+        <image src="../../images/intro9.jpg" class="introImg"></image>
+        <image src="../../images/定位.png" class="introLogo"></image>
+        <view class="introPlace">伦敦</view>
+        <view class="introTitle">IQ Bankside</view>
+        <view class="introPrice">£351 起/周</view>
+        <view class="introText">限时200英镑返现</view>
+      </view>
+    </view>
   </view>
 
 
   <view class="footer">
-     <view class="footerContent">
-        <view class="contentText">
-          <image src="../../images/耳机.png"></image>
-          <view>微信在线客服</view>
-        </view>
-        <view class="contentText">
-          <image src="../../images/电话.png"></image>
-          <view>400 001 4100</view>
-        </view>
-     </view>
-     <view class="lineBox">
-         <view class="footerLine"></view>
-         <view>海外大学推荐的住宿预订平台</view>
-         <view class="footerLine"></view>
-     </view>
+    <view class="footerContent">
+      <view class="contentText">
+        <image src="../../images/耳机.png"></image>
+        <view>微信在线客服</view>
+      </view>
+      <view class="contentText">
+        <image src="../../images/电话.png"></image>
+        <view>400 001 4100</view>
+      </view>
+    </view>
+    <view class="lineBox">
+      <view class="footerLine"></view>
+      <view>海外大学推荐的住宿预订平台</view>
+      <view class="footerLine"></view>
+    </view>
   </view>
 </view>
-
