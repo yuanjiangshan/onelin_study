@@ -29,9 +29,29 @@
       </view>
       <image class="rightIcon" src="../../images/right.png"></image>
     </view>
-    <view class="imgBox">
+    <view class="imgBox" wx:if="{{indexSelect==0}}">
       <scroll-view class='imgContent' scroll-x="true">
           <view class="placeImg" wx:for='{{imageSrc1}}' wx:key="index" wx:for-item="image">
+            <image src="{{image.url}}" class="imgItem" mode="scaleToFill">
+              <view class="placeTitle1">{{image.title1}}</view>
+              <view class="placeTitle2">{{image.title2}}</view>
+            </image>
+          </view>
+      </scroll-view>
+    </view>
+    <view class="imgBox" wx:if="{{indexSelect==1}}">
+      <scroll-view class='imgContent' scroll-x="true">
+          <view class="placeImg" wx:for='{{imageSrc2}}' wx:key="index" wx:for-item="image">
+            <image src="{{image.url}}" class="imgItem" mode="scaleToFill">
+              <view class="placeTitle1">{{image.title1}}</view>
+              <view class="placeTitle2">{{image.title2}}</view>
+            </image>
+          </view>
+      </scroll-view>
+    </view>
+    <view class="imgBox" wx:if="{{indexSelect==2}}">
+      <scroll-view class='imgContent' scroll-x="true">
+          <view class="placeImg" wx:for='{{imageSrc3}}' wx:key="index" wx:for-item="image">
             <image src="{{image.url}}" class="imgItem" mode="scaleToFill">
               <view class="placeTitle1">{{image.title1}}</view>
               <view class="placeTitle2">{{image.title2}}</view>

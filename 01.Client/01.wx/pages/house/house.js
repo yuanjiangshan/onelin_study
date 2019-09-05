@@ -69,17 +69,17 @@ Page({
       id: 0,
       title1: "Melbourne",
       title2: "墨尔本",
-      url: "../../images/melbourne.png",
+      url: "../../images/melbourne.jpg",
     }, {
       id: 1,
       title1: "Canberra",
       title2: "堪培拉",
-        url: "../../images/canberra.png",
+        url: "../../images/canberra.jpg",
     }, {
       id: 2,
       title1: "Brisbane",
       title2: "布里斯班",
-        url: "../../images/brisbane.png",
+        url: "../../images/brisbane.jpg",
     }],
 
     
@@ -94,8 +94,7 @@ Page({
       {
         id: 2,
         title: "爱尔兰",
-      }
-    ],
+      }],
 
   },
 
