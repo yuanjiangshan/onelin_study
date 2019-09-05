@@ -1,0 +1,22 @@
+<!--pages/search/search.wxml-->
+<view class="box">
+  <view class="searchBox">
+    <image src="../../images/searchlogo.png" class="searchlogo"></image>
+    <input class="searchInput" placeholder="输入城市、大学和公寓" bindinput="bindReplaceInput">
+    </input>
+  </view>
+
+  <view class="contentBox">
+      <view class="contentTitle">热门搜索</view>
+      <view class="placeBox">
+         <view class="placeText">莱斯特</view>
+         <view class="placeText">谢菲尔德</view>
+         <view class="placeText">哈德斯菲尔德大学</view>
+      </view>
+      <view class="historyBox">
+      <view class="line"></view>
+      <view class="history">没有搜索历史</view>
+      <view class="line"></view>
+      </view>
+  </view>
+</view>

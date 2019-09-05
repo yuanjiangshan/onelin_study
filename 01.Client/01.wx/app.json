@@ -1,8 +1,9 @@
 {
   "pages": [
+    "pages/house/house",
+    "pages/search/search",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/hours/hours",
     "pages/homes/homes"
   ],
   "window": {
@@ -13,7 +14,7 @@
   },
   "tabBar": {
     "selectedColor": "#239EDE",
-    "color": "#000000",
+    "color": "#BFBFBF",
     "list": [{
       "pagePath": "pages/index/index",
       "text": "主页",
@@ -25,7 +26,7 @@
       "iconPath": "./images/Apartment.png",
       "selectedIconPath": "./images/Apartment1.png"
     },{
-      "pagePath": "pages/hours/hours",
+      "pagePath": "pages/house/house",
       "text": "公寓",
       "iconPath": "./images/hours.png",
       "selectedIconPath": "./images/hours1.png"
