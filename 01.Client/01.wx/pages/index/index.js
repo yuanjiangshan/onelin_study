@@ -91,13 +91,13 @@ Page({
          })
         break;
       case 1:
-        wx.navigateTo({
+        wx.switchTab({
           url: '../logs/logs'
         })
         break;
       case 2:
-        wx.navigateTo({
-          url: "../house/house"
+        wx.switchTab({
+          url: '../house/house',
         })
         break;
       case 3:

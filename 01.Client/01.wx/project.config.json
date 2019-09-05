@@ -14,7 +14,11 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.8.1",
+<<<<<<< HEAD
+	"appid": "wx8e121d2693569a80",
+=======
 	"appid": "wxffbb91761f45d615",
+>>>>>>> bbcd5a97532206b531744e790da6537dddb62e4a
 	"projectname": "onelin_study",
 	"debugOptions": {
 		"hidedInDevtools": []

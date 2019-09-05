@@ -1,8 +1,9 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs",
     "pages/house/house",
+    "pages/search/search",
+    "pages/logs/logs",
     "pages/homes/homes",
     "pages/indexPag/area/area",
     "pages/englishlisten/englishlisten",
@@ -16,7 +17,7 @@
   },
   "tabBar": {
     "selectedColor": "#239EDE",
-    "color": "#000000",
+    "color": "#BFBFBF",
     "list": [{
       "pagePath": "pages/index/index",
       "text": "主页",

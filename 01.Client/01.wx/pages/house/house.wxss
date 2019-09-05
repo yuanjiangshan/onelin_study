@@ -1,1 +1,311 @@
+
 /* pages/house/house.wxss */
+
+.box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.searchBox {
+  width: 94%;
+  height: 100rpx;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchIpt {
+  width: 96%;
+  height: 80%;
+  background: #f3f3f3;
+  border-radius: 50rpx;
+  border: 1rpx solid #ececec;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchlogo {
+  width: 35rpx;
+  height: 35rpx;
+  margin-right: 20rpx;
+}
+
+.searchTitle {
+  display: inline-block;
+  color: #c6c6c6;
+  font-size: 34rpx;
+}
+
+.contentBox {
+  width: 94%;
+  height: 400rpx;
+  margin: 30rpx auto;
+}
+
+.contentBox swiper {
+  width: 96%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.swiperImg {
+  width: 100%;
+  height: 100%;
+  border-radius: 10rpx;
+}
+
+.placeBox {
+  width: 94%;
+  height: 500rpx;
+  margin: 10rpx auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.top{
+  width: 100%;
+  display: flex;
+}
+.placeItem {
+  height: 80rpx;
+  display: flex;
+}
+.placeItemView{
+  padding: 10rpx;
+}
+.title{
+  color: #6E6E6E;
+  font-size: 34rpx;
+}
+.titleSelect{
+  color: #000000;
+  font-size: 34rpx;
+  font-weight: 600;
+}
+.line{
+  width: 30rpx;
+  height: 8rpx;
+  background: black;
+  border-radius: 5rpx;
+  margin: 10rpx auto;
+}
+.rightIcon{
+  width:35rpx;
+  height:35rpx;
+  position:absolute;
+  top: 3%;
+  right:0;
+}
+
+.imgBox{
+  margin-top:20rpx;
+  height: 80%;
+  display: flex;
+}
+.imgContent{
+  white-space: nowrap;
+  display: flex;
+}
+.placeImg:first-child{
+  margin: 0;
+}
+.placeImg{
+  width:35%;
+  height:360rpx;
+  padding-right: 20rpx;
+  display: inline-block;
+  margin-left: 20rpx;
+  border-radius: 10rpx;
+  background-repeat: no-repeat;
+}
+.img1{
+  background-size: 220% 100%;
+  background-image: url("https://pic.funliving.com/h_s_p1.png");
+}
+.img2{
+  background-size: 120% 100%;
+  background-image: url("https://pic.funliving.com/h_s_p2.png");
+}
+.img3{
+  background-size: 120% 100%;
+  background-image: url("https://pic.funliving.com/h_s_p3.png");
+}
+.img4{
+  background-size: 120% 100%;
+  background-image: url("https://pic.funliving.com/h_s_p4.png");
+}
+.placeTitle1{
+  color: white;
+  font-size: 38rpx;
+  padding: 10rpx;
+}
+.placeTitle2{
+  color: white;
+  font-size: 30rpx;
+  padding-left: 10rpx;
+}
+
+
+
+.itemBox{
+  width: 92%;
+  height: 350rpx;
+  /* background: peachpuff; */
+  margin: 0 auto;
+  display: flex;
+}
+.itemLeft{
+  width: 40%;
+  height: 100%;
+  border-radius: 10rpx;
+  background: #FEB54F;
+  color: white;
+  position: relative;
+}
+.leftTitle{
+  padding: 10rpx 0rpx 0rpx 10rpx;
+  font-size: 36rpx;
+}
+.leftText{
+  padding-left:10rpx;
+  font-size: 26rpx; 
+}
+.itemLeft image{
+  width: 200rpx;
+  height: 200rpx;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+
+.rightBox{
+  width: 55%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+.itemRight{
+  width:100%;
+  height:45%;
+  background: #FA6B96;
+  margin-left: 35rpx;
+  border-radius: 10rpx;
+  color: white;
+  position: relative;
+}
+.itemRight image{
+  width: 150rpx;
+  height: 150rpx;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.school{
+  background: #7783FD;
+}
+
+
+.houseBox{
+  width: 92%;
+  margin: 40rpx auto;
+  display: flex;
+  flex-direction: column;
+}
+.houseTitle{
+  font-weight: 700;
+  padding: 10rpx 0rpx;
+}
+.houseContent{
+  display: flex;
+  width:100%;
+  height:410rpx;
+  justify-content: space-between;
+}
+.houseIntroduce{
+  width: 48%;
+  height: 90%;
+}
+.introLogo{
+  width: 28rpx;
+  height: 28rpx;
+}
+.introPlace{
+  font-size: 26rpx;
+  display: inline-block;
+  margin-left: 5rpx;
+}
+.houseIntroduce .introImg{
+  width: 100%;
+  height: 60%;
+  border-radius: 10rpx;
+}
+.introTitle{
+  font-size: 28rpx;
+  color: #444444;
+}
+.introPrice{
+  font-size: 26rpx;
+  color: #C6635E;
+}
+.introText{
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 24rpx;
+  color: #A9A9A9;
+}
+
+.footer{
+  width: 92%;
+  height: 300rpx;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.footerContent{
+  width: 90%;
+  height: 80rpx;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.contentText{
+  width: 48%;
+  height: 100%;
+  background: #00B391;
+  border-radius:50rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 28rpx;
+}
+.contentText image{
+  width: 35rpx;
+  height:35rpx;
+  margin-right:10rpx; 
+}
+.lineBox{
+  width: 100%;
+  display: flex;
+  margin-top:50rpx;
+  font-size: 26rpx; 
+  align-items: center;
+  justify-content: center;
+  color: #A5A5A5;
+}
+.footerLine{
+  width: 10%;
+  height: 5rpx;
+  background: #E6E6E6;
+  margin: 10rpx;
+}
+/* pages/house/house.wxss */
+
