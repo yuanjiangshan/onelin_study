@@ -1,0 +1,13 @@
+/* pages/test6.4/test6.4.wxss */
+.box {
+  width: 100%;
+  padding: 50rpx;
+  background: black;
+  color: white;
+}
+
+.riemann {
+  width: 88%;
+  height: 400rpx;
+  margin-top: 50rpx;
+}

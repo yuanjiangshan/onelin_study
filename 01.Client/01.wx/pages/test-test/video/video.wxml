@@ -1,0 +1,20 @@
+<!--pages/video/video.wxml-->
+<view class="content">
+    <view class="content_title">
+      <view class="title_box">
+        <view>认识已知截面固体</view>
+        <view>(Volume with Known Cross Scetions)</view>
+      </view>
+    </view>
+    <view class="videobox">
+      <video src="../../../images/imgsy/video1.mp4" class="video"></video>
+    </view>
+    <view class="content_title">
+      <view class="title_box">
+        <view>求水平截面固体体积解题步骤</view>
+      </view>
+    </view>
+    <view class="videobox">
+      <video src="../../../images/imgsy/video2.mp4" class="video"></video>
+    </view>
+</view>

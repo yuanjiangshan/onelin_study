@@ -1,0 +1,7 @@
+<!--pages/test5.1/test5.1.wxml-->
+<view class="box">
+  <view>5.1节 黎曼和</view>
+  <view>(Riemann Sum)</view>
+  <image src="../../../images/imgsy/riemann1.gif" class="riemann"></image>
+  <image src="../../../images/imgsy/riemann2.jpeg" class="riemann"></image>
+</view>

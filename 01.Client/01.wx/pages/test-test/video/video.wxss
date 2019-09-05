@@ -1,0 +1,40 @@
+/* pages/video/video.wxss */
+  .content {
+    width: 100%;
+    background: #181616;
+    padding-top: 10rpx;
+  }
+
+  .content_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 93%;
+    height: 150rpx;
+    color: white;
+    font-size: 40rpx;
+    border: 5rpx solid #7D7777;
+    border-radius: 40rpx;
+    margin-bottom: 50rpx;
+    margin-left: 20rpx;
+    margin-top: 70rpx;
+  }
+
+  .title_box {
+    text-align: center;
+  }
+
+.animation_video {
+  padding-bottom: 0rpx;
+}
+
+.videobox {
+  width: 75%;
+  height: 250rpx;
+  margin-left: 90rpx;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+}

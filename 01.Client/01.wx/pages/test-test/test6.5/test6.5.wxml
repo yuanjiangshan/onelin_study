@@ -1,0 +1,28 @@
+<!--pages/test6.5/test6.5.wxml-->
+<view class="box">
+  <view>6.5节 已知截面固体体积</view>
+  <view>(Volume with Known Cross Scetions)</view>
+  <view class="title">已知截面固体形成过程：</view>
+  <image src="../../../images/imgsy/scetions1.gif" class="riemann"></image>
+  <image src="../../../images/imgsy/scetions2.jpeg" class="riemann"></image>
+  <image src="../../../images/imgsy/scetions3.jpg" class="riemann"></image>
+
+  <view class="title">固体形成过程：</view>
+  <image src="../../../images/imgsy/scetions4.gif" class="riemann"></image>
+  <image src="../../../images/imgsy/scetions5.jpg" class="riemann"></image>
+  <image src="../../../images/imgsy/scetions6.jpg" class="riemann"></image>
+
+  <view class="title">固体成过程：</view>
+  <image src="../../../images/imgsy/scetions7.gif" class="riemann"></image>
+  <image src="../../../images/imgsy/scetions8.jpg" class="riemann"></image>
+  <image src="../../../images/imgsy/scetions9.jpg" class="riemann"></image>
+
+  <view class="title">固体成过程：</view>
+  <image src="../../../images/imgsy/scetions10.gif" class="riemann"></image>
+  <image src="../../../images/imgsy/scetions11.jpg" class="riemann"></image>
+  <image src="../../../images/imgsy/scetions12.jpg" class="riemann"></image>
+  
+  <view class="title">固体成过程：</view>
+  <image src="../../../images/imgsy/scetions13.gif" class="riemann"></image>
+  <image src="../../../images/imgsy/scetions14.jpg" class="riemann"></image>
+</view>

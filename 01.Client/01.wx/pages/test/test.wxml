@@ -1,0 +1,34 @@
+<view class="content">
+  <view class="animation">
+    <view class="content_title">AP微积分动画演示</view>
+    <view class="box">
+      <view class="list catalog">
+        <image src="../../images/imgsy/catalog.png" class="icon"></image>
+        目录
+      </view>
+
+      <view class="list" bindtap="animation1">
+        <view>5.1节</view>
+        <view class="list_content">黎曼和</view>
+      </view>
+
+      <view class="list" bindtap="animation2">
+        <view>6.4节</view>
+        <view class="list_content">圆盘法</view>
+      </view>
+
+      <view class="list" bindtap="animation3">
+        <view>6.5节</view>
+        <view class="list_content">已知截面固体体积</view>
+      </view>
+    </view> 
+  </view>
+  <view class="animation animation_video">
+    <view class="content_title">6.5节视频教学</view>
+    <view class="video" bindtap="video">
+        <image src="../../images/imgsy/AP.jpg" class="video_img"></image>
+        <image src="../../images/imgsy/click.png" class="clickIcon"></image>
+    </view>
+  </view>
+</view>
+

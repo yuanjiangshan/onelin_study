@@ -1,0 +1,6 @@
+<view class="box">
+  <view>6.4节 旋转体的体积</view>
+  <view>(Volume of Revolution)</view>
+  <image src="../../../images/imgsy/disk1.gif" class="riemann"></image>
+  <image src="../../../images/imgsy/disk2.jpg" class="riemann"></image>
+</view>
