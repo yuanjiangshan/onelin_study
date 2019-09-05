@@ -1,2 +1,27 @@
-<!--pages/homes/homes.wxml-->
-<text>pages/homes/homes.wxml</text>
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" class="button-info"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="line"></view>
+  <view class="information" bindtap="toUser">
+    <view class="oneUser">
+      <image src="../../images/user/Pay.png" class="images"></image>
+      <view class="information-user">支付</view>
+    </view>
+    <view class="image">></view>
+  </view>
+
+  
+  <view class="information" wx:for="{{topics}}" wx:key="index" wx:for-item="topic" bindtap="toUserMap" data-yjs="{{index}}">
+    <view class="oneUser">
+      <image src="{{topic.url}}" class="images"></image>
+      <view class="information-user">{{topic.title}}</view>
+    </view>
+    <view class="image">></view>
+  </view>
+</view>

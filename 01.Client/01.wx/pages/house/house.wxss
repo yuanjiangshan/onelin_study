@@ -1,3 +1,4 @@
+
 /* pages/house/house.wxss */
 
 .box {
@@ -306,3 +307,5 @@
   background: #E6E6E6;
   margin: 10rpx;
 }
+/* pages/house/house.wxss */
+

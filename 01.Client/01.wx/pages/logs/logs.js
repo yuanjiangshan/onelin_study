@@ -5,6 +5,11 @@ Page({
   data: {
     logs: []
   },
+  toEnglish:function(){
+    wx.navigateTo({
+      url:"../english/english"
+    })
+  },
   onLoad: function () {
     this.setData({
       logs: (wx.getStorageSync('logs') || []).map(log => {

@@ -1,4 +1,55 @@
-<!--index.wxml-->
-<view class="container">
+<!--轮播图-->
+<view class="CarouselBox">
+  <swiper indicator-dots='true' autoplay='true' duration='{{500}}' interval='{{2000}}'>
+    <view wx:for='{{imgUrls}}' wx:key>
+      <swiper-item>
+        <image src='{{item}}'></image>
+      </swiper-item>
+    </view>
+  </swiper>
+</view>
 
+<!-- 分割线 -->
+<view class="line"></view>
+
+<!-- 导航模块 -->
+<view class="navigationBox">
+  <view class="navigationOne" wx:for="{{navs}}" wx:key="index" wx:for-item="nav" bindtap="jump" data-index="{{index}}">
+    <view>
+      <image class="img1" src="{{nav.url}}"></image>
+    </view>
+    <view class="fontsize">
+      {{nav.title}}
+    </view>
+  </view>
+</view>
+
+<!-- 分割线 -->
+<view class="line"></view>
+
+<!-- 服务项目 -->
+<view class="serveBox">服务项目</view>
+<view class="itemBox">
+  <view class="itemOne" wx:for="{{background}}" wx:key="inde" wx:for-item="bg">
+    <image src="{{bg.url}}" class="itemTopBox"></image>
+  </view>
+</view>
+
+<!-- 留学课堂 -->
+<view class="serveBox">留学课堂</view>
+<view class="courseBox">
+   <scroll-view class="course1"  scroll-x="true">
+        <view class="courseOne" wx:for="{{imgUrlOne}}" wx:key="indexs" wx:for-item="imgOne">
+          <image src="{{imgOne.url}}" class="imgBig"></image>
+        </view>
+    </scroll-view>
+</view>
+
+<!-- 留学资讯 -->
+<view class="serveBox">留学资讯</view>
+<view class="spyBox">
+  <view class="spyOneBox" wx:for="{{tails}}" wx:key="number" wx:for-item="tail">
+    <view class="spyOne"><image class="spyImg" src="{{tail.url}}"></image></view>
+    <view class="tailText">{{tail.title}}</view>
+  </view>
 </view>

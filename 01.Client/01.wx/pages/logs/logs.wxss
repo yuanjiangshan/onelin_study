@@ -1,8 +1,41 @@
+
 .log-list {
   display: flex;
   flex-direction: column;
-  padding: 40rpx;
 }
-.log-item {
-  margin: 10rpx;
+.img1{
+  height: 100rpx;
+  width: 100rpx;
+}
+.onebox{
+  height: 500rpx;
+  width: 760rpx;
+  border-radius: 10rpx;
+}
+.img{
+  height: 500rpx;
+}
+.twobox{
+  display: flex;
+  flex-direction: column;
+  height: 300rpx;
+  margin-top: 20rpx;
+  background-color: white;
+  margin: 0 auto;
+}
+.one{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 150rpx;
+  width: 760rpx;
+}
+.images{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.size{
+  font-size: 30rpx;
 }

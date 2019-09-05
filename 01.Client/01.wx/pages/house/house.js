@@ -34,6 +34,7 @@ Page({
       title: "爱尔兰",
     }
     ]
+
   },
 
   /**
@@ -52,6 +53,10 @@ Page({
     let id=res.currentTarget.dataset.yjs;
     this.setData({
       indexSelect:id
-    });
+    })
   }
+  /**
+   * 生命周期函数--监听页面初次渲染完成
+   */
+  
 })
