@@ -6,7 +6,7 @@
   <view class="twobox">
     <view class="one">
       <view class="subject">
-        <view class="images">
+        <view class="images" bindtap="toMath">
           <image class="img1" src="../../images/logs/math.png"></image>
           <view class="size">留学数学</view>
         </view>

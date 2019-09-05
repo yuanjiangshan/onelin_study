@@ -1,0 +1,28 @@
+<!--pages/test6.5/test6.5.wxml-->
+<view class="box">
+  <view>6.5节 已知截面固体体积</view>
+  <view>(Volume with Known Cross Scetions)</view>
+  <view class="title">已知截面固体形成过程：</view>
+  <image src="https://6874-html5-yk6am-1300167017.tcb.qcloud.la/wx/imgs/scetions1.gif?sign=8a8dd099d694365a7e49218b74589aaf&t=1567663105" class="riemann"></image>
+  <image src="https://6874-html5-yk6am-1300167017.tcb.qcloud.la/wx/imgs/scetions2.jpeg?sign=b5db11f78635105876d43715ac9fb17e&t=1567663117" class="riemann"></image>
+  <image src="https://6874-html5-yk6am-1300167017.tcb.qcloud.la/wx/imgs/scetions3.jpg?sign=e39bdeb7cf06dfdbb16778e60aa813ac&t=1567663173" class="riemann"></image>
+
+  <view class="title">固体形成过程：</view>
+  <image src="https://6874-html5-yk6am-1300167017.tcb.qcloud.la/wx/imgs/scetions4.gif?sign=d377765c40c47bb5e2f2719758134a49&t=1567663183" class="riemann"></image>
+  <image src="https://6874-html5-yk6am-1300167017.tcb.qcloud.la/wx/imgs/scetions5.jpg?sign=b5600f0aa89bc99e89da366538c06a98&t=1567663193" class="riemann"></image>
+  <image src="https://6874-html5-yk6am-1300167017.tcb.qcloud.la/wx/imgs/scetions6.jpg?sign=05d795cb8016e068f781d36e23b19a4c&t=1567663205" class="riemann"></image>
+
+  <view class="title">固体成过程：</view>
+  <image src="https://6874-html5-yk6am-1300167017.tcb.qcloud.la/wx/imgs/scetions7.gif?sign=c72d187dc83d355e9f8365a1b05a7cad&t=1567663219" class="riemann"></image>
+  <image src="https://6874-html5-yk6am-1300167017.tcb.qcloud.la/wx/imgs/scetions8.jpg?sign=68dbd2db38ac15bc5869a1fb98998928&t=1567663231" class="riemann"></image>
+  <image src="https://6874-html5-yk6am-1300167017.tcb.qcloud.la/wx/imgs/scetions9.jpg?sign=4d574cce7777e82f3b62a5bf8c026774&t=1567663243" class="riemann"></image>
+
+  <view class="title">固体成过程：</view>
+  <image src="https://6874-html5-yk6am-1300167017.tcb.qcloud.la/wx/imgs/scetions10.gif?sign=5df2b29f932847fa7ec9ddac864dd9e6&t=1567663259" class="riemann"></image>
+  <image src="https://6874-html5-yk6am-1300167017.tcb.qcloud.la/wx/imgs/scetions11.jpg?sign=338cfcbf3c9853ac633ea933cfb2c419&t=1567663270" class="riemann"></image>
+  <image src="https://6874-html5-yk6am-1300167017.tcb.qcloud.la/wx/imgs/scetions12.jpg?sign=afa6b626b1b9967b7b24654ca8b3ce87&t=1567663279" class="riemann"></image>
+  
+  <view class="title">固体成过程：</view>
+  <image src="https://6874-html5-yk6am-1300167017.tcb.qcloud.la/wx/imgs/scetions13.gif?sign=c472a322397a62c724c3590d5dddbb8c&t=1567663289" class="riemann"></image>
+  <image src="https://6874-html5-yk6am-1300167017.tcb.qcloud.la/wx/imgs/scetions14.jpg?sign=b083c889cd72401bb9df518dc0232ec7&t=1567663299" class="riemann"></image>
+</view>

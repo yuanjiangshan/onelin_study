@@ -1,4 +1,4 @@
-// pages/homes-Setting/homes-Setting.js
+// pages/test/test.js
 Page({
 
   /**
@@ -7,21 +7,24 @@ Page({
   data: {
 
   },
-  seace:[{
-    url:"../../../images/user/Pay.png",
-    title:"点击它就注册"
-  }, {
-      url: "../../../images/user/Pay.png",
-      title: "点击它就注册"
-    }, {
-      url: "../../../images/user/Pay.png",
-      title: "点击它就注册"
-    }, {
-      url: "../../../images/user/Pay.png",
-      title: "点击它就注册"
-    }]
 
-,  /**
+  video:function(){
+    wx.navigateTo({ url:"../test-test/video/video"})
+  },
+
+  animation1: function () {
+    wx.navigateTo({ url: "../test-test/test5.1/test5.1" })
+  },
+
+  animation2: function () {
+    wx.navigateTo({ url: "../test-test/test6.4/test6.4" })
+  },
+
+  animation3: function () {
+    wx.navigateTo({ url: "../test-test/test6.5/test6.5" })
+  },
+
+  /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {

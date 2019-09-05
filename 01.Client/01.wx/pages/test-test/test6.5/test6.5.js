@@ -1,4 +1,4 @@
-// pages/homes-Setting/homes-Setting.js
+// pages/test6.5/test6.5.js
 Page({
 
   /**
@@ -7,21 +7,8 @@ Page({
   data: {
 
   },
-  seace:[{
-    url:"../../../images/user/Pay.png",
-    title:"点击它就注册"
-  }, {
-      url: "../../../images/user/Pay.png",
-      title: "点击它就注册"
-    }, {
-      url: "../../../images/user/Pay.png",
-      title: "点击它就注册"
-    }, {
-      url: "../../../images/user/Pay.png",
-      title: "点击它就注册"
-    }]
 
-,  /**
+  /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {

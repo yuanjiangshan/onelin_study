@@ -10,6 +10,11 @@ Page({
       url:"../english/english"
     })
   },
+  toMath: function () {
+    wx.navigateTo({
+      url: "../test/test"
+    })
+  },
   onLoad: function () {
     this.setData({
       logs: (wx.getStorageSync('logs') || []).map(log => {
