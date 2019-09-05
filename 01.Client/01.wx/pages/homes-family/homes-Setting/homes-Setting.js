@@ -7,8 +7,21 @@ Page({
   data: {
 
   },
+  seace:[{
+    url:"../../../images/user/Pay.png",
+    title:"点击它就注册"
+  }, {
+      url: "../../../images/user/Pay.png",
+      title: "点击它就注册"
+    }, {
+      url: "../../../images/user/Pay.png",
+      title: "点击它就注册"
+    }, {
+      url: "../../../images/user/Pay.png",
+      title: "点击它就注册"
+    }]
 
-  /**
+,  /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
