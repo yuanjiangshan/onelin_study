@@ -6,8 +6,7 @@
     "pages/homes/homes",
     "pages/indexPag/area/area",
     "pages/englishlisten/englishlisten",
-    "pages/english/english",  
-    "pages/hours/hours"
+    "pages/english/english"
   ],
   "window": {
     "backgroundTextStyle": "light",
